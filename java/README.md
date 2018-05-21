@@ -9,10 +9,10 @@ developed for purpose of effective software course (B4M36ESW) on [CTU](http://ww
  ## Standard lib
   * ConcurrentHashMap
   * Streams
-  ```java
-   GZIPInputStream ungziped = new GZIPInputStream(new ByteArrayInputStream(data)); //GZIPInputStream is not buffered
-   BufferedReader br = new BufferedReader(new InputStreamReader(new BufferedInputStream(ungziped)));
-  ```
+    ```java
+    GZIPInputStream ungziped = new GZIPInputStream(new ByteArrayInputStream(data)); //GZIPInputStream is not buffered
+    BufferedReader br = new BufferedReader(new InputStreamReader(new BufferedInputStream(ungziped)));
+    ```
  
 
 ## Run with 
